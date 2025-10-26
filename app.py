@@ -96,7 +96,7 @@ if uploaded_file is not None:
     with col1:
         st.markdown(f"<b style='color:#ffffff; font-family:Cambria; font-weight:600;'>File Name:</b> {uploaded_file.name}", unsafe_allow_html=True)
     with col2:
-        st.image(image_pil, caption="Uploaded Image", use_column_width=False, width=200)
+        st.image(image_pil, caption="Uploaded Image", use_container_width=False, width=200)
 
     # ---------------------------
     # Convert to numpy array (RGB)
